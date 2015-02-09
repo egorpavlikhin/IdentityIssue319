@@ -1,0 +1,28 @@
+﻿{
+    "DefaultAdminUsername": "Administrator",
+    "DefaultAdminPassword": "",
+    "Data": {
+        "DefaultConnection": {
+            "ConnectionString": "Server=.\\SQLEXPRESS;Database=;Trusted_Connection=True;MultipleActiveResultSets=true"
+        },
+        "IdentityConnection": {
+            "Connectionstring": "Server=.\\SQLEXPRESS;Database=;Trusted_Connection=True;MultipleActiveResultSets=true"
+        }
+    },
+    "Identity": {
+        "Password": {
+            "RequireDigit": "false",
+            "RequireLowercase": "false",
+            "RequireUppercase": "false",
+            "RequireNonLetterOrDigit": "false"
+        },
+        "PasswordHasher": {
+
+        }
+    },
+    "EntityFramework": {
+        "ApplicationDbContext": {
+            "ConnectionStringKey": "Data:DefaultConnection:ConnectionString"
+        }
+    }
+}
